@@ -21,11 +21,12 @@ My [ErgoDox](https://www.ergodox.io/) split keyboard layout
 - [QMK Configurator](https://config.qmk.fm/#/idobao/id80/v3/ansi/LAYOUT_80_ansi)
   - [ErgoDox EZ Glow Layout](https://config.qmk.fm/#/ergodox_ez/glow/LAYOUT_ergodox_pretty)
   - [Test Keyboard](https://config.qmk.fm/#/test)
+  - [QMK Basic Keycodes](https://docs.qmk.fm/keycodes_basic)
 - [Keyboard Layout Editor](https://www.keyboard-layout-editor.com/#/)
 
 ## Design
 
-### Querty Letters [Green-100:#DCFCE7]
+### Letters [Green-100:#DCFCE7]
 
 Standard querty layout
 
@@ -42,16 +43,59 @@ Standard querty layout
 - Alt
   - Standard location (Left & Right)
 - Layer 1 (Left & Right)
-  - QMK layer
+  - Under Thumbs (Left & Right)
+  - Hold for temp
+  - Tap to toggle
 - Win (Left & Right)
+
   - Windows key
+  - Standard location (Left & Right)
+
   - Many keyboards only have left windows key
   - Mac equivlent is Command and there are usually a left and right
-- Menu (TBD Lows)
+
+- Mouse Mode Layer (TBD)
+
+  - Set with left hand
+  - Control Mouse with right hand keyboard
+  - Movment JKLI
+  - Controls
+    - Mouse Movement Up, Down, Left, Right
+    - Mouse Click 1, 2, 3
+    - Mouse Wheel Up, Down, Left, Right
+
+- Menu
   - Open context menu
-- Fn (TBD Low)
+  - On Right side to match keyboards that have it
+- Fn
   - Alt function like home, search, switch app, settings, vol up/down
-  - could skip this
+  - On Left side on lenovo laptops
+  - On Left side to match lenovo laptops
+  - Possible Function
+    - Power
+    - Sleep
+    - Wake
+    - Help
+    - Multimedia
+      - Prev
+      - Next
+      - Mute
+      - Vol UP
+      - Vol Down
+      - Stop
+      - Play
+      - Rewind
+      - Fast Forward
+    - X270
+      - F1: Mute 🔊 🕩🔇
+      - F2: Vol Down
+      - F3: Vol Up
+      - F4: Mute Mic (not standard)
+      - F5/F6: Brightness
+      - F7: External Dispalys
+      - F8: Wifi
+      - F9: Settings
+      - F
 
 ### Other Characters
 
@@ -63,17 +107,29 @@ Standard querty layout
 
 - Grave Accent (`) / Tilde (~) (TBD)
 
+  - This is usualy at top left under esc
   - Grave is used often in coding
-  - Ctrl+` toggles terminal in vs code
+  - Vs Code Short Cuts
+    - Ctrl+` toggles terminal in vs code
+    - Ctrl+SHIFT+` creates a new terminal
   - Possibly set to top right key next to 0
+  - Keychron K6 Combines this with ESC
 
 - Hyphen (-) / Underscore (\_) (TBD)
+
+  - Usualy to the right of 0
+
 - Equal (=) / Plus (+) (TBD)
 
-- Square Brackets ([]) (TBD)
+  - Usualy to the right of 0
+
+- Square Brackets ([]) / Curly Brackets ({}) (TBD)
+  - These are usualy on keys betwen P and Backslash (\\)
+  - Use right pinky
   - Need to do with one hand as curly brackets require shift modifier
-- Curly Brackets ({}) (TBD)
   - Same as square brackes with shift modifier
+  - Add to O and P keys on layer
+    - use the same ring and pinky fingers
 
 ### Function Keys (F1-F12) [Cyan-100:#CFFAFE]
 
@@ -83,7 +139,7 @@ F11 and F12 on center keys are number row
 
 ### Arrow Keys [Violet-100:#EDE9FE]
 
-Map to JKLI on layer 1
+Map to HJKL on layer 1 like Vim
 
 ### Text Nav Keys [Yellow-100:#FEF9C3]
 
@@ -102,14 +158,19 @@ Map to UOPL on layer 1
   - left thumb
 - Enter
   - right thumb
-- Tab (TBD)
+- Tab
+
   - Standard location left of Q
-  - could also add to thumb
-  - maybe layer 1 space
+  - Also right thumb
+
 - Delete (TBD)
+  - Typical at top right of keyboard
   - Can't be on layer, needed for CTRL+Alt+Delete
-  - actually could be ok if on bkpsace as CTRL+ALT+DEL could be done with left hand while right hand chooses layer
-- Insert (TBD Low)
+  - Actually could be ok if on bkpsace as CTRL+ALT+DEL could be done with left hand while right hand chooses layer. This is kind of akward though
+  - Could Keep above BkSpc so same thumb is used for both backspace and delete
+  - Could be above space as this also moves the cursor
+- Insert (TBD)
+  - Could be on
 - Caps Lock
   - Standard Location left of A
 
@@ -121,11 +182,21 @@ Map to UOPL on layer 1
     - Open Task Manager: Ctrl+Shift+Esc
     - Start Menu: Ctrl+Esc
     - Cycle Window: Alt+Esc
+
+NmLk, PrtSc, ScrlLk, Pause/Break on top center keys.
+You have to take your hand off
+
 - Prt Scrn (TBD)
   - Should be left hand since right hand will be on mouse
+  - not used that often
 - Scroll Lock (TBD Low)
   - Rarely used
-- Break / Pause (TBD Low)
+- Pause (TBD Low)
+
   - Rarely used
+
 - Num Lock (TBD Low)
   - Rarely used
+
+Some keyboard combine the following
+NmLk (PrtSc), ScrLk (Pause), Insert (Delete)
