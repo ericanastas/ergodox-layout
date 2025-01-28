@@ -1,9 +1,7 @@
 [
   {
-    "backcolor": "",
     "name": "Ergodox Layout",
     "author": "Eric Anastas",
-    "notes": "s",
     "switchMount": "cherry",
     "css": ".keylabel0 {\n    color:red !important;\n}\n\n.keylabel2 {\n    color:blue !important;\n}\n\n.keylabel6 {\n    color:green !important;\n}\n\n.keylabel8 {\n    color:orange !important;\n}\n\n.keylabel4 {\n    font-weight:600;\n}"
   },
@@ -203,7 +201,8 @@
     "A",
     {
       "x": 14.5,
-      "a": 4
+      "a": 4,
+      "f": 3
     },
     ":\n\nPgDn\n\n\n\n\n\n\n;",
     {
