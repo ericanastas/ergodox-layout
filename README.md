@@ -32,7 +32,7 @@ Standard querty layout
 
 Standard querty layout
 
-### Modifier Keys (IN PROGRESS) [Red-100:#FEE2E2]
+### Modifier Keys (TBD) [Red-100:#FEE2E2]
 
 - Shift
   - Standard location (Left & Right)
@@ -42,16 +42,21 @@ Standard querty layout
   - Standard location (Left & Right)
 - Layer 1 (Left & Right)
   - QMK layer
-- Win (IN PROGRESS)
+- Win (TBD)
   - Windows key
   - Many keyboards only have left windows key
-- Menu (IN PROGRESS)
+  - Mac equivlent is Command and there are usually a left and right
+- Menu (TBD)
   - Open context menu
-- Fn (IN PROGRESS)
+- Fn (TBD)
   - Alt function like home, search, switch app, settings, vol up/down
   - could skip this
 
 ### Function Keys (F1-F12) [Cyan-100:#CFFAFE]
+
+Layer 1 of Number keys
+
+F11 and F12 on center keys are number row
 
 ### Arrow Keys [Violet-100:#EDE9FE]
 
@@ -66,7 +71,7 @@ Map to UOPL on layer 1
 - PgDn
 - PgUp
 
-### Text Editing (IN PROGRESS) [Orange-100:#FFEDD5]
+### Text Editing (TBD) [Orange-100:#FFEDD5]
 
 - Space
   - left thumb
@@ -74,31 +79,31 @@ Map to UOPL on layer 1
   - left thumb
 - Enter
   - right thumb
-- Tab
+- Tab (TBD)
   - Standard location left of Q
   - could also add to thumb
-  - maybe layer 1 space?d
-- Delete
+  - maybe layer 1 space
+- Delete (TBD)
   - Can't be on layer, needed for CTRL+Alt+Delete
   - actually could be ok if on bkpsace as CTRL+ALT+DEL could be done with left hand while right hand chooses layer
-- Insert
+- Insert (TBD)
 - Caps Lock
   - Standard Location left of A
 
-### Misc (IN PROGRESS) [Pink-100:#FAE8FF]
+### Misc (TBD) [Pink-100:#FAE8FF]
 
-- Esc
+- Esc (TBD)
   - Reach with out moving hand off home row
-- Prt Scrn
+- Prt Scrn (TBD)
   - Should be left hand since right hand will be on mouse
-- Scroll Lock
+- Scroll Lock (TBD)
   - Rarely used
-- Break / Pause
+- Break / Pause (TBD)
   - Rarely used
-- Num Lock
+- Num Lock (TBD)
   - Rarely used
 
-### Other Characters (IN PROGRESS)
+### Other Characters (TBD)
 
 - APOSTROPHE (') / QUOTATION MARK(")
   - right of : ; like other keyboards
