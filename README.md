@@ -6,13 +6,14 @@ My [ErgoDox](https://www.ergodox.io/) split keyboard layout
 
 ## Goals
 
-- Stay as close to standard keyboards as possible
+Stay as close to standard keyboards as possible
 
 ### Example Keyboards
 
-- [Keychron K6 (65%)](https://www.keychron.com/collections/all-products/products/keychron-k6-wireless-mechanical-keyboard)
 - [Keychron K2 (84/75%)](https://www.keychron.com/collections/all-keyboards/products/keychron-k2-wireless-mechanical-keyboard)
 - [Keycool 84 (84 key/75%)](https://drop.com/buy/keycool-kc84-wireless-rgb-hotswap-mechanical-keyboard)
+- [Keychron K6 (65%)](https://www.keychron.com/collections/all-products/products/keychron-k6-wireless-mechanical-keyboard)
+- [Thinkpad X270](https://www.lenovo.com/us/en/p/laptops/thinkpad/thinkpadx/thinkpad-x270/22tp2tx2700?orgRef=https%253A%252F%252Fwww.google.com%252F)
 
 ## Links
 
@@ -25,47 +26,66 @@ My [ErgoDox](https://www.ergodox.io/) split keyboard layout
 
 ### Querty Letters [Green-100:#DCFCE7]
 
+Standard querty layout
+
 ### Digits [Blue-100:#DBEAFE]
 
-### Modifier Keys [Red-100:#FEE2E2]
+Standard querty layout
+
+### Modifier Keys (IN PROGRESS) [Red-100:#FEE2E2]
 
 - Shift
+  - Standard location (Left & Right)
 - Ctrl
+  - Standard location (Left & Right)
 - Alt
-- Win
-  - windows key
-- Menu
+  - Standard location (Left & Right)
+- Layer 1 (Left & Right)
+  - QMK layer
+- Win (IN PROGRESS)
+  - Windows key
+  - Many keyboards only have left windows key
+- Menu (IN PROGRESS)
   - Open context menu
-- Fn
-
+- Fn (IN PROGRESS)
   - Alt function like home, search, switch app, settings, vol up/down
   - could skip this
 
-- Layer 1
-  - QMK layer
+### Function Keys (F1-F12) [Cyan-100:#CFFAFE]
 
-### Function Keys [Cyan-100:#CFFAFE]
+### Arrow Keys [Violet-100:#EDE9FE]
 
-### Arrow Navigation Keys [Violet-100:#EDE9FE]
+Map to JKLI on layer 1
 
-### Text Navigation Keys [Yellow-100:#FEF9C3]
+### Text Nav Keys [Yellow-100:#FEF9C3]
+
+Map to UOPL on layer 1
 
 - Home
 - End
 - PgDn
 - PgUp
 
-### Text Editing [Orange-100:#FFEDD5]
+### Text Editing (IN PROGRESS) [Orange-100:#FFEDD5]
 
-- Enter
-- Tab
 - Space
+  - left thumb
 - Back Space
+  - left thumb
+- Enter
+  - right thumb
+- Tab
+  - Standard location left of Q
+  - could also add to thumb
+  - maybe layer 1 space?d
 - Delete
+  - Can't be on layer, needed for CTRL+Alt+Delete
+  - actually could be ok if on bkpsace as CTRL+ALT+DEL could be done with left hand while right hand chooses layer
 - Insert
 - Caps Lock
+  - Standard Location left of A
 
-### Misc [Pink-100:#FAE8FF]
+### Misc (IN PROGRESS) [Pink-100:#FAE8FF]
 
 - Esc
   - Reach with out moving hand off home row
@@ -78,7 +98,7 @@ My [ErgoDox](https://www.ergodox.io/) split keyboard layout
 - Num Lock
   - Rarely used
 
-### Other Characters
+### Other Characters (IN PROGRESS)
 
 - APOSTROPHE (') / QUOTATION MARK(")
   - right of : ; like other keyboards
