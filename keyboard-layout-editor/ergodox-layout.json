@@ -1,10 +1,11 @@
 [
   {
+    "backcolor": "",
     "name": "Ergodox Layout",
     "author": "Eric Anastas",
     "notes": "s",
     "switchMount": "cherry",
-    "css": ".keylabel0 {\n    color:red !important;\n}\n\n.keylabel2 {\n    color:blue !important;\n}\n\n.keylabel4 {\n    font-weight:600;\n}"
+    "css": ".keylabel0 {\n    color:red !important;\n}\n\n.keylabel2 {\n    color:blue !important;\n}\n\n.keylabel6 {\n    color:green !important;\n}\n\n.keylabel8 {\n    color:orange !important;\n}\n\n.keylabel4 {\n    font-weight:600;\n}"
   },
   [
     {
@@ -41,11 +42,11 @@
       "x": 5.5
     },
     "%\n\nF5\n\n\n\n\n\n\n5",
-    "\n\nF11\n\n\n\n\n\n\n???",
+    "\n\nF11",
     {
       "x": 4.5
     },
-    "\n\nF12\n\n\n\n\n\n\n???",
+    "\n\nF12",
     "^\n\nF6\n\n\n\n\n\n\n6"
   ],
   [
