@@ -6,7 +6,8 @@ My [ErgoDox](https://www.ergodox.io/) split keyboard layout
 
 ## Goals
 
-Stay as close to standard keyboards as possible
+- Stay as close to standard keyboards as possible so moving to other computers is not a challege
+- When there is not a 1:1 match in keys try to at least use the same fingers
 
 ### Example Keyboards
 
@@ -32,7 +33,7 @@ Standard querty layout
 
 Standard querty layout
 
-### Modifier Keys (TBD) [Red-100:#FEE2E2]
+### Modifier Keys [Red-100:#FEE2E2]
 
 - Shift
   - Standard location (Left & Right)
@@ -42,15 +43,37 @@ Standard querty layout
   - Standard location (Left & Right)
 - Layer 1 (Left & Right)
   - QMK layer
-- Win (TBD)
+- Win (Left & Right)
   - Windows key
   - Many keyboards only have left windows key
   - Mac equivlent is Command and there are usually a left and right
-- Menu (TBD)
+- Menu (TBD Lows)
   - Open context menu
-- Fn (TBD)
+- Fn (TBD Low)
   - Alt function like home, search, switch app, settings, vol up/down
   - could skip this
+
+### Other Characters
+
+- Apostrophe (') / Quotation Mark (")
+  - Right of Colon (:) / Semi Colon (;) like other keyboards
+- Back Slash (\\) / Pipe (|)
+
+  - Right of P like othe keyboards
+
+- Grave Accent (`) / Tilde (~) (TBD)
+
+  - Grave is used often in coding
+  - Ctrl+` toggles terminal in vs code
+  - Possibly set to top right key next to 0
+
+- Hyphen (-) / Underscore (\_) (TBD)
+- Equal (=) / Plus (+) (TBD)
+
+- Square Brackets ([]) (TBD)
+  - Need to do with one hand as curly brackets require shift modifier
+- Curly Brackets ({}) (TBD)
+  - Same as square brackes with shift modifier
 
 ### Function Keys (F1-F12) [Cyan-100:#CFFAFE]
 
@@ -71,7 +94,7 @@ Map to UOPL on layer 1
 - PgDn
 - PgUp
 
-### Text Editing (TBD) [Orange-100:#FFEDD5]
+### Text Editing [Orange-100:#FFEDD5]
 
 - Space
   - left thumb
@@ -86,34 +109,23 @@ Map to UOPL on layer 1
 - Delete (TBD)
   - Can't be on layer, needed for CTRL+Alt+Delete
   - actually could be ok if on bkpsace as CTRL+ALT+DEL could be done with left hand while right hand chooses layer
-- Insert (TBD)
+- Insert (TBD Low)
 - Caps Lock
   - Standard Location left of A
 
-### Misc (TBD) [Pink-100:#FAE8FF]
+### Misc [Pink-100:#FAE8FF]
 
-- Esc (TBD)
-  - Reach with out moving hand off home row
+- Esc
+  - Keep as dedicated key on top left
+  - Windows shortcut use this
+    - Open Task Manager: Ctrl+Shift+Esc
+    - Start Menu: Ctrl+Esc
+    - Cycle Window: Alt+Esc
 - Prt Scrn (TBD)
   - Should be left hand since right hand will be on mouse
-- Scroll Lock (TBD)
+- Scroll Lock (TBD Low)
   - Rarely used
-- Break / Pause (TBD)
+- Break / Pause (TBD Low)
   - Rarely used
-- Num Lock (TBD)
+- Num Lock (TBD Low)
   - Rarely used
-
-### Other Characters (TBD)
-
-- APOSTROPHE (') / QUOTATION MARK(")
-  - right of : ; like other keyboards
-- Grave Accent (`) / Tilde (~)
-- Square Brackets ([])
-  - Need to do with one hand as curly brackets require shift modifier
-- Curly Brackets ({})
-
-  - Same as square brackes with shift modifier
-
-- Back Slash (\\) / Pipe (|)
-- Hyphen (-) / Underscore (\_)
-- Equal (=) / Plus (+)
