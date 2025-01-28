@@ -4,7 +4,7 @@
     "author": "Eric Anastas",
     "notes": "s",
     "switchMount": "cherry",
-    "css": ".keylabel0 {\n    color:green !important;\n}\n\n.keylabel2 {\n    color:blue !important;\n}\n\n.keylabel4 {\n    font-weight:600;\n}"
+    "css": ".keylabel0 {\n    color:red !important;\n}\n\n.keylabel2 {\n    color:blue !important;\n}\n\n.keylabel4 {\n    font-weight:600;\n}"
   },
   [
     {
@@ -264,12 +264,15 @@
   [
     {
       "y": -0.875,
-      "c": "#90EE90",
-      "w": 1.5
+      "t": "#ff0000",
+      "f": 4,
+      "w": 1.5,
+      "w2": 1.25
     },
     "Shift",
     {
-      "c": "#cccccc"
+      "t": "#000000",
+      "f": 3
     },
     "Z",
     {
@@ -278,8 +281,9 @@
     },
     "?\n\n\n\n\n\n\n\n\n/",
     {
-      "c": "#90EE90",
+      "t": "#ff0000",
       "a": 7,
+      "f": 4,
       "w": 1.5
     },
     "Shift"
@@ -288,7 +292,8 @@
     {
       "y": -0.375,
       "x": 3.5,
-      "c": "#cccccc"
+      "t": "#000000",
+      "f": 3
     },
     "",
     {
@@ -304,7 +309,7 @@
     "Alt",
     {
       "x": 1,
-      "c": "#ADD8E6"
+      "t": "#0000ff"
     },
     "LAY 1",
     {
@@ -313,7 +318,7 @@
     "LAY1",
     {
       "x": 1,
-      "c": "#cccccc"
+      "t": "#000000"
     },
     "Alt"
   ],
@@ -343,6 +348,7 @@
   ],
   [
     {
+      "f": 2,
       "h": 2
     },
     "",
@@ -350,6 +356,9 @@
       "h": 2
     },
     "",
+    {
+      "f": 3
+    },
     ""
   ],
   [
@@ -378,13 +387,15 @@
     },
     "",
     {
+      "f": 2,
       "h": 2
     },
     ""
   ],
   [
     {
-      "x": -3
+      "x": -3,
+      "f": 3
     },
     ""
   ]
