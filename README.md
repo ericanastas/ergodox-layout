@@ -2,12 +2,20 @@
 
 My [ErgoDox](https://www.ergodox.io/) split keyboard layout
 
-![ergodox-layout.png](./keyboard-layout-editor/ergodox-layout.png)
+![ea-ergodox-layout.png](./keyboard-layout-editor/ergodox-layout.png)
 
-## Goals
+## Goals & Rationale
 
 - Stay as close to standard keyboards as possible so moving to other computers is not a challege
-- When there is not a 1:1 match in keys try to at least use the same fingers
+- When there is not a 1:1 match in keys in the same relative location, and try to at least use the same fingers
+
+### ErgoDox & Redox
+
+Ommits using six center thumb keys on ErgoDox so layout works just as well with Redox.
+
+Add Redox vs ErgoDox
+
+![/ergodox-vs-redox.png](./images/ergodox-vs-redox.png)
 
 ### Example Keyboards
 
@@ -16,13 +24,16 @@ My [ErgoDox](https://www.ergodox.io/) split keyboard layout
 - [Keychron K6 (65%)](https://www.keychron.com/collections/all-products/products/keychron-k6-wireless-mechanical-keyboard)
 - [Thinkpad X270](https://www.lenovo.com/us/en/p/laptops/thinkpad/thinkpadx/thinkpad-x270/22tp2tx2700?orgRef=https%253A%252F%252Fwww.google.com%252F)
 
-## Links
+### ANSI 104
 
-- [QMK Configurator](https://config.qmk.fm/#/idobao/id80/v3/ansi/LAYOUT_80_ansi)
-  - [ErgoDox EZ Glow Layout](https://config.qmk.fm/#/ergodox_ez/glow/LAYOUT_ergodox_pretty)
-  - [Test Keyboard](https://config.qmk.fm/#/test)
-  - [QMK Basic Keycodes](https://docs.qmk.fm/keycodes_basic)
-- [Keyboard Layout Editor](https://www.keyboard-layout-editor.com/#/)
+![](./images/ansi-104.png)
+
+## Files
+
+- [ea-ergodox on Oryx]()
+- [keyboard-layout-editor.com](keyboard-layout-editor.com) Files
+  - [ea-ergodox-layout.json](/keyboard-layout-editor/ea-ergodox-layout.json)
+  - [ea-ergodox-layout.png](/keyboard-layout-editor/ea-ergodox-layout.png)
 
 ## Design
 
@@ -46,6 +57,7 @@ Standard querty layout
   - Under Thumbs (Left & Right)
   - Hold for temp
   - Tap to toggle
+  - Keep fingers free to reach any keys while holding layer modifier
 - Win (Left & Right)
 
   - Windows key
@@ -200,3 +212,11 @@ You have to take your hand off
 
 Some keyboard combine the following
 NmLk (PrtSc), ScrLk (Pause), Insert (Delete)
+
+## Links & Resources
+
+- [QMK Configurator](https://config.qmk.fm/#/idobao/id80/v3/ansi/LAYOUT_80_ansi)
+  - [ErgoDox EZ Glow Layout](https://config.qmk.fm/#/ergodox_ez/glow/LAYOUT_ergodox_pretty)
+  - [Test Keyboard](https://config.qmk.fm/#/test)
+  - [QMK Basic Keycodes](https://docs.qmk.fm/keycodes_basic)
+- [Keyboard Layout Editor](https://www.keyboard-layout-editor.com/#/)
